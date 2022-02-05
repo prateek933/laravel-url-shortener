@@ -11,7 +11,7 @@ With the help of laravel URL shortener, you can reduce your long url to short. E
 composer create project laravel/laravel url-shortener
 ~~~
 
-* Edit the .env file located in your root directory. Fill the database credentials and APP_URL of your project, then run the below commands
+* Edit the .env file located in your root directory and fill the database credentials and APP_URL of your project, then run the below commands
 
 ~~~
 composer dump-autoload
