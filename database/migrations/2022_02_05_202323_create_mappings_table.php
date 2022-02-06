@@ -16,7 +16,7 @@ class CreateMappingsTable extends Migration
         Schema::create('mappings', function (Blueprint $table) {
             $table->id();
             $table->string('shorten_url_key');
-            $table->string('url');
+            $table->text('url');
             $table->timestamps();
         });
     }
